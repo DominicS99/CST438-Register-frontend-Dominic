@@ -26,6 +26,7 @@ class Semester extends Component {
     this.setState({selected: event.target.value});
   }
 
+ // Account creation / fetch
   createAccount = (account) => {
     const tok = Cookies.get('XSRF-TOKEN');
 
