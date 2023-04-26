@@ -58,7 +58,7 @@ class AddAccount extends Component {
     render()  { 
       return (
           <div>
-            <Button variant="outlined" color="primary" style={{margin: 10}} onClick={this.handleClickOpen}>
+            <Button id="addAccountBtn" variant="outlined" color="primary" style={{margin: 10}} onClick={this.handleClickOpen}>
               Add Account
             </Button>
             <Dialog open={this.state.open} onClose={this.handleClose}>
